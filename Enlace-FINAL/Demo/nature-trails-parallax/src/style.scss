@@ -1,0 +1,62 @@
+body{
+  margin:0;
+  background:#D1EBD4;
+  overflow:hidden;
+  text-align:center;
+  height:100vh;
+  svg{
+    margin:0 auto;
+    width:400px;
+    position:relative;
+    z-index:1;
+    top:50%;
+    height: 100%;
+    @for $i from 1 through 10{
+    .line:nth-of-type(#{$i}){
+      animation: dash_loader 1s $i/10 + 1.4s linear forwards;
+    }
+    }
+  }
+}
+.forest{
+  img{
+    height:100%;
+    max-height:1000px;
+    position:absolute;
+    bottom:100%;
+    left:0;
+  }
+  @for $i from 1 through 10{
+    img:nth-of-type(#{$i}){
+      animation:popup .7s $i/10 + 0s forwards cubic-bezier(0.000, 0.615, 0.000, 0.995);
+    }
+  }
+  .p1{
+  //  bottom:160px;
+  }
+}
+@keyframes popup{
+  from{bottom:-100%;}
+  to{bottom:0;}
+}
+
+path,polyline,line {
+    stroke-dasharray: 750;
+    stroke-dashoffset: 750;
+    stroke-width: 12px;
+    stroke-miterlimit: 10;
+    stroke-linejoin: round;
+    fill: none;
+    stroke: white;
+    z-index: 1;
+    opacity: 1;
+    
+}
+
+@keyframes dash_loader {
+    to {
+        stroke-dashoffset: -0;
+        stroke-width: 3px;
+        stroke: white;
+    }
+}
