@@ -1,0 +1,459 @@
+<!doctype html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>N L A C E</title>
+	<link rel="image_src" href="/images/notify_better_image.png" />
+	<link href="https://fonts.googleapis.com/css?family=Trade+Winds&display=swap" rel="stylesheet">
+
+	<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
+	<link rel="stylesheet" href="style_social.css">
+
+
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,700' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Pacifico:400' rel='stylesheet' type='text/css'>
+	<script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.js"></script>
+
+
+	<link rel="shortcut icon" href="favicon.png" type="image/png">
+
+
+	<link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+	<link rel="stylesheet" href="style_schedule.css">
+
+
+	<link rel="stylesheet" type="text/css" href="css/base.css" />
+	<link rel="stylesheet" type="text/css" href="css/demo6.css" />
+	<link rel="stylesheet" type="text/css" href="pater/pater.css" />
+	<link rel="stylesheet" type="text/css" href="./style_sunset.css">
+	<link rel="stylesheet" href="bootstrap.min.css">
+	<link rel="stylesheet" href="style_about.css">
+	<link rel="stylesheet" href="./style_mainp.css">
+
+	<link href="https://fonts.googleapis.com/css?family=Pacifico&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Anton&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Acme&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Monoton&display=swap" rel="stylesheet">
+
+
+	<!-- Loader Link -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+	<link rel="stylesheet" href="./style_load.css">
+
+	<style>
+		.thtitle {
+			float: left;
+			margin-left: 45%;
+			z-index: 2;
+			padding: 0px;
+			text-align: center;
+			margin-left: 45%;
+			margin-top: 2%;
+			font-family: 'Monoton', cursive;
+			font-size: 60px;
+		}
+
+
+		.trans {
+			color: transparent;
+			-webkit-text-stroke: 1px rgba(0, 0, 0, 0.644);
+			font-size: 300%;
+			margin-top: 0;
+			padding-left: 0;
+			font-family: 'Anton', sans-serif;
+		}
+
+
+		.textbox {
+			float: clear;
+			border: .25em solid #763;
+			font-family: 'Acme', sans-serif;
+			/* font-family: 'Pacifico', cursive; */
+			font-size: 1.5rem;
+			font-weight: normal;
+			margin: 1em auto;
+			padding: 1em;
+			text-align: left;
+			margin-left: 15%;
+			margin-right: 10%;
+			text-indent: 4em;
+			width: 73%;
+			position: absolute;
+			word-spacing: 0.5rem;
+			height: auto;
+			position: absolute;
+			z-index: 1;
+			background-color: rgba(255, 238, 204, 0.418);
+
+
+		}
+
+		.textbox>div {
+			background: #FEC;
+			border-radius: .5em;
+			box-shadow: 0 .1em 0 #FEC,
+				.2em .3em 0 #431;
+			color: #9b9c44;
+			letter-spacing: 0.4em;
+			margin: 0 -8em;
+			text-shadow: .2em 0 0 #542;
+			margin-bottom: 50%;
+		}
+
+
+
+
+
+
+		@mixin center() {
+			-webkit-transform: translate(-50%, -50%);
+			-ms-transform: translate(-50%, -50%);
+			transform: translate(-50%, -50%);
+			left: 50%;
+			top: 50%;
+		}
+
+
+		@import url(https://fonts.googleapis.com/css?family=Raleway:400,,800,900);
+
+		.tt {
+			position: absolute;
+			@include center();
+		}
+
+		.dont {
+			font-weight: 800;
+			color: transparent;
+			font-size: 120px;
+			background: url("https://phandroid.s3.amazonaws.com/wp-content/uploads/2014/05/rainbow-nebula.jpg") repeat;
+			background-position: 40% 50%;
+			-webkit-background-clip: text;
+			position: relative;
+			text-align: center;
+			line-height: 90px;
+			letter-spacing: -8px;
+			-webkit-text-stroke: 2px black;
+		}
+
+		.subtitle {
+			display: block;
+			text-align: center;
+			text-transform: uppercase;
+			padding-top: 10px;
+		}
+	</style>
+
+
+
+	<link rel="stylesheet" href="style_landscape.css">
+
+	<script src="bootstrap.min.js"></script>
+
+	<script type="text/javascript">
+		var counter = 0;
+
+		function nav1() {
+			if (counter % 2 == 0)
+				openNav();
+			else {
+				closeNav();
+			}
+			counter++;
+		}
+
+
+		function openNav() {
+			document.getElementById("mySidenav").style.width = "250px";
+			document.getElementById("main").style.marginLeft = "250px";
+			document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+
+			$("#ter").toggleClass("tog");
+		}
+
+		function closeNav() {
+			document.getElementById("mySidenav").style.width = "0";
+			document.getElementById("main").style.marginLeft = "0";
+			document.body.style.backgroundColor = "white";
+			$("#ter").toggleClass("tog");
+		}
+	</script>
+
+	<script>
+		$(document).ready(function () {
+			var mouseX, mouseY;
+			var ww = $(window).width();
+			var wh = $(window).height();
+			var traX, traY;
+			$(document).mousemove(function (e) {
+				mouseX = e.pageX;
+				mouseY = e.pageY;
+				traX = ((4 * mouseX) / 570) + 40;
+				traY = ((4 * mouseY) / 570) + 50;
+				console.log(traX);
+				$(".dont").css({
+					"background-position": traX + "%" + traY + "%"
+				});
+			});
+		});
+	</script>
+
+
+	<link rel="stylesheet" href="./style1.css">
+
+	<link rel="stylesheet" type="text/css" href="assets.css">
+
+	<script>
+		$(document).ready(function () {
+			$(".main").onepage_scroll({
+				sectionContainer: "section",
+				responsiveFallback: 600,
+				loop: true
+			});
+		});
+	</script>
+
+
+	<script type="text/javascript">
+		function openNav() {
+			document.getElementById("mySidenav").style.width = "250px";
+			document.getElementById("main1").style.marginLeft = "250px";
+			document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+
+			$("#ter").addClass("tog");
+		}
+
+		/* Set the width of the side navigation to 0 and the left margin of the page content to 0, and the background color of body to white */
+		function closeNav() {
+			document.getElementById("mySidenav").style.width = "0";
+			document.getElementById("main1").style.marginLeft = "0";
+			document.body.style.backgroundColor = "white";
+			$("#ter").removeClass("tog");
+		}
+	</script>
+
+	<script type="text/javascript" src="jQuery1.js"></script>
+
+	<script type="text/javascript" src="jquery.onepage-scroll.js"></script>
+	<link href='onepage-scroll.css' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="./style4.css">
+
+</head>
+
+<body>
+
+
+
+
+
+
+
+	<a href="index.html" onclick="setTimeout(location.reload.bind(location), 1)">
+	</a>
+
+	<div class="load_rap">
+		<div class="loader">
+			<div class="loader-inner">
+				<div class="loader-line-wrap">
+					<div class="loader-line"></div>
+				</div>
+				<div class="loader-line-wrap">
+					<div class="loader-line"></div>
+				</div>
+				<div class="loader-line-wrap">
+					<div class="loader-line"></div>
+				</div>
+				<div class="loader-line-wrap">
+					<div class="loader-line"></div>
+				</div>
+				<div class="loader-line-wrap">
+					<div class="loader-line"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="wrapper">
+		<div class="main">
+
+
+			/* Loader */
+			<section>
+
+
+
+
+
+
+
+
+
+
+				<div id="world">
+
+					<nav class="navbar navbar-expand-lg navbar-dark bg-light">
+
+						<button class="navbar-toggler" type="button" data-toggle="collapse"
+							data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+							aria-expanded="false" aria-label="Toggle navigation">
+							<span class="navbar-toggler-icon"></span>
+						</button>
+						<div class="collapse navbar-collapse" id="navbarSupportedContent">
+							<ul class="navbar-nav mr-auto">
+								<li class="nav-item active">
+									<a class="nav-link" href="#">HOME<span class="sr-only">(current)</span></a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="schedule.html">SCHEDULE<span
+											class="sr-only">(current)</span></a>
+								</li>
+
+								<li class="nav-item">
+									<a class="nav-link " href="index_greatfall.html">EVENT
+										REGISTRATION<span class="sr-only">(current)</span></a>
+								</li>
+							</ul>
+
+						</div>
+					</nav>
+
+
+
+				</div>
+				<!-- partial -->
+				<script src='https://cdnjs.cloudflare.com/ajax/libs/three.js/86/three.min.js'></script>
+				<script src="./script_mainp.js"></script>
+
+
+
+
+
+
+
+			</section>
+
+			<!-- INTRO PAGE -->
+
+
+			<section class="page2">
+
+
+
+
+
+				<div>
+					<div id="sky">
+						<div class="tt">
+
+							<div class="trans">Dont Click the Moon</div>
+						</div>
+						<div>
+							<div class="shadow"></div>
+							<div class="design">
+								<div class="spare1"></div>
+								<div class="spare2">
+									<div></div>
+								</div>
+								<div class="spare3"></div>
+							</div>
+						</div>
+						<div id="sun">
+
+						</div>
+
+						<div class="textbox light">
+
+							The beauty of different cultures, whose colours are spread across the spectrum, have come
+							together to create the laces of a majestic rainbow entangling splendidly into the ‘ENLACE’,
+							the cultural fest of IIIT Kottayam.
+							Intrinsic to our existence, creating and strengthening bonds among people from different
+							ethnicities is what this fest is all about.
+							So when the ball drops, and the 'Enlace' spreads its wings splendidly into the sky, get
+							ready to be enthralled and exhilarated by the aura of joy and astonishment that will be
+							trapped inside your hearts for years to come.
+
+						</div>
+
+
+					</div>
+					<div class="first-row" id="moun1">
+					</div>
+					<div class="first-row" id="moun2">
+					</div>
+					<div class="first-row" id="moun3">
+					</div>
+					<div class="second-row" id="moun4">
+					</div>
+					<div class="second-row" id="moun5">
+					</div>
+					<div class="second-row" id="moun6">
+					</div>
+					<div class="third-row" id="moun7">
+					</div>
+					<div class="third-row" id="moun8">
+					</div>
+					<div class="third-row" id="moun9">
+					</div>
+
+					<!-- partial -->
+					<script src="./script_sunset.js"></script>
+					<h1 class="text-dark">ABOUT</h1>
+
+				</div>
+			</section>
+
+			<!-- THEME PAGE -->
+			<section>
+
+				<div class='forest'>
+					<img class='p1' src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/217233/forest_1.svg'>
+					<img class='p2' src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/217233/forest_2.svg'>
+					<img class='p3' src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/217233/forest_3.svg'>
+					<img class='p4' src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/217233/forest_4.svg'>
+					<img class='p5' src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/217233/forest_5.svg'>
+					<img class='p6' src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/217233/forest_6.svg'>
+					<img class='p7' src='theme1.svg' width="113%" height="30%">
+				</div>
+				<div class="thtitle">THEME</div>
+
+				<script src="./script3.js"></script>
+			</section>
+
+
+			<!-- SCHEDULE PAGE -->
+
+			<section class="page3">
+
+				<h1>CONTACT US</h1>
+
+				<ul>
+					<li><a
+							href="https://www.facebook.com/IIITKtym/?__xts__[0]=68.ARB5KCXVSzt1hbSW5H37xAk3dR1K4n3nlaE3V1TIKTniiSsxr91cEvjoUrV4tw8bkrIx-4_SKL4gJpTenJCO5aU5iaK9B4O38rNkSl_HTuvrX-vJqLKTqlj_J2VRCEKOqq8txrH8j5vOLKSAm4YIMN2H9j0L2-7wry5NKgNGmjeacHvjec-yO-YFKRbPhp9-ZwBgaX2N5dBV_wYhiTsEkS6wXxcjdEGpN1ccehraFrrXEUydIMTDjxOD2rX6CkpthXycjgy78MCB8wlvr07ThXnXtsfl3Ke_Yy6uRoxAFbwnTi3V7PEwXvMbVbdxkzQBb_DwRG6q1pG2t6jYg1pY6H1kfQ"><i
+								class="fa fa-facebook" aria-hidden="true"></i></a></li>
+					<li><a href="https://twitter.com/iiitkottayam?lang=en"><i class="fa fa-twitter"
+								aria-hidden="true"></i></a></li>
+					<li><a href="https://www.youtube.com/channel/UCTXmRiVLxOiu214yRVfNdKQ"><i class="fa fa-youtube"
+								aria-hidden="true"></i></a></li>
+					<li><a
+							href="https://www.linkedin.com/school/indian-institute-of-information-technology-kottayam/about/"><i
+								class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+					<li><a href="https://www.instagram.com/iiitkottayam/?hl=en"><i class="fa fa-instagram"
+								aria-hidden="true"></i></a></li>
+				</ul>
+			</section>
+
+			<script>
+				$(window).on("load", function () {
+					$(".load_rap").fadeOut("slow");
+				});
+			</script>
+
+			<script src="js/demo.js"></script>
+			<script src="js/three.min.js"></script>
+			<script src="js/demo6.js"></script>
+
+</body>
+
+</html>

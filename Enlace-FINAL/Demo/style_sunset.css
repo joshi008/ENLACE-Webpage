@@ -1,0 +1,128 @@
+#info {
+	position: absolute;
+	color: #fff;
+	padding: 50px;
+	font-family: 'Times new roman';
+	width: 100px;
+	font-size: 40px;
+	line-height: 30px;
+	z-index: 5;
+	text-shadow: 0 0 20px #fff;
+}
+
+#sky {
+	margin-top: 0;
+	height: 200vh;
+	position: absolute;
+	width: 100%;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#7996fc), color-stop(#cc86e4), color-stop(#fb7cba), color-stop(#ff828b), color-stop(#ff9764), color-stop(#ff9d52), color-stop(#ffa43d), color-stop(#ffad21), color-stop(#ff9a1e), color-stop(#ff8620), color-stop(#ff7026), to(#ff592e));
+	background-image: linear-gradient(to bottom, #7996fc, #cc86e4, #fb7cba, #ff828b, #ff9764, #ff9d52, #ffa43d, #ffad21, #ff9a1e, #ff8620, #ff7026, #ff592e);
+	-webkit-transition-duration: 3s;
+	transition-duration: 3s;
+}
+
+#sun {
+	width: 250px;
+	height: 250px;
+	margin: auto;
+	margin-top: 60px;
+	border-radius: 50%;
+	background: rgb(248, 248, 246);
+	box-shadow: none;
+	-webkit-transition-duration: 3s;
+	transition-duration: 3s;
+	cursor: pointer;
+
+}
+
+#moun1,
+#moun2,
+#moun3,
+#moun4,
+#moun5,
+#moun6,
+#moun7,
+#moun8,
+#moun9 {
+	position: absolute;
+	margin: 0;
+	bottom: 0;
+	width: 0;
+	height: 0;
+	-webkit-transition-duration: 3s;
+	transition-duration: 3s;
+
+}
+
+.first-row {
+	border-bottom: 40vh solid #be87fa;
+}
+
+.second-row {
+	border-bottom: 30vh solid #9781f0;
+}
+
+.third-row {
+	border-bottom: 20vh solid #6a72d9;
+}
+
+#moun1 {
+	margin-left: -5vw;
+	border-right: 400px solid transparent;
+	border-left: 150px solid transparent;
+}
+
+#moun2 {
+	margin-left: 15vw;
+	border-right: 400px solid transparent;
+	border-left: 400px solid transparent;
+}
+
+#moun3 {
+	margin-left: 70vw;
+	border-right: 150px solid transparent;
+	border-left: 400px solid transparent;
+}
+
+#moun4 {
+	margin-left: -15vw;
+	border-right: 400px solid transparent;
+	border-left: 500px solid transparent;
+}
+
+#moun5 {
+	margin-left: 40vw;
+	border-right: 350px solid transparent;
+	border-left: 150px solid transparent;
+}
+
+#moun6 {
+	margin-left: 70vw;
+	border-right: 200px solid transparent;
+	border-left: 200px solid transparent;
+}
+
+#moun7 {
+	margin-left: 15vw;
+	border-right: 150px solid transparent;
+	border-left: 250px solid transparent;
+}
+
+#moun8 {
+	margin-left: 50vw;
+	border-right: 300px solid transparent;
+	border-left: 150px solid transparent;
+}
+
+#moun9 {
+	margin-left: 60vw;
+	border-right: 300px solid transparent;
+	border-left: 250px solid transparent;
+}
+
+body {
+	display: grid;
+	overflow: hidden;
+	height: 100vh;
+	margin: 0;
+}
