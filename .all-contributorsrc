@@ -24,6 +24,16 @@
         "code",
         "infra"
       ]
+    },
+    {
+      "login": "faiz-hasan11",
+      "name": "Syed Faiz Hasan",
+      "avatar_url": "https://avatars.githubusercontent.com/u/61085713?v=4",
+      "profile": "https://github.com/faiz-hasan11",
+      "contributions": [
+        "code",
+        "infra"
+      ]
     }
   ],
   "contributorsPerLine": 7,
