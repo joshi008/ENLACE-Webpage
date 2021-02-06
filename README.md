@@ -1,6 +1,6 @@
 # ENLACE-Webpage
 The Front-end part of the web page for our college's cultural fest ENLACE'20.
 
-To open the web page please go to joshi008/ENLACE-Webpage/Enlace-FINAL/Demo/index.html
+[Demo-1](https://enlace-iiitk.netlify.app/)  [Demo-2](https://joshi008.github.io/ENLACE-Webpage/)
 
 
