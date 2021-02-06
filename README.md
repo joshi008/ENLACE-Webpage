@@ -1,6 +1,6 @@
 # ENLACE-Webpage
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 The Front-end part of the web page for our college's cultural fest ENLACE'20.
 
@@ -18,6 +18,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <table>
   <tr>
     <td align="center"><a href="https://www.linkedin.com/in/hrishabh-joshi-39267718b/"><img src="https://avatars.githubusercontent.com/u/54844760?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Hrishabh Joshi</b></sub></a><br /><a href="https://github.com/joshi008/ENLACE-Webpage/commits?author=joshi008" title="Code">💻</a> <a href="#infra-joshi008" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a></td>
+    <td align="center"><a href="https://github.com/faiz-hasan11"><img src="https://avatars.githubusercontent.com/u/61085713?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Syed Faiz Hasan</b></sub></a><br /><a href="https://github.com/joshi008/ENLACE-Webpage/commits?author=faiz-hasan11" title="Code">💻</a> <a href="#infra-faiz-hasan11" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a></td>
   </tr>
 </table>
 
