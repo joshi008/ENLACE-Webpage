@@ -1,0 +1,25 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "joshi008",
+      "name": "Hrishabh Joshi",
+      "avatar_url": "https://avatars.githubusercontent.com/u/54844760?v=4",
+      "profile": "https://www.linkedin.com/in/hrishabh-joshi-39267718b/",
+      "contributions": [
+        "code",
+        "infra"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "ENLACE-Webpage",
+  "projectOwner": "joshi008",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "skipCi": true
+}
