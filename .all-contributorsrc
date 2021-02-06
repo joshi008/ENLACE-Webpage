@@ -14,6 +14,16 @@
         "code",
         "infra"
       ]
+    },
+    {
+      "login": "starwiz-7",
+      "name": "Aryan Yadav",
+      "avatar_url": "https://avatars.githubusercontent.com/u/54806954?v=4",
+      "profile": "https://github.com/starwiz-7",
+      "contributions": [
+        "code",
+        "infra"
+      ]
     }
   ],
   "contributorsPerLine": 7,
